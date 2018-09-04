@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxResistance: 5
+  regenTime: 0
 --- !u!212 &31150656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -359,6 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxResistance: 5
+  regenTime: 0
 --- !u!212 &662420646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -448,6 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxResistance: 5
+  regenTime: 0
 --- !u!212 &685850841
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -764,6 +767,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hazardTemplate: {fileID: 1521552842562668, guid: 2d209c2065defb04a8ab38c8b7a6db2d,
     type: 2}
+  debrisTemplate: {fileID: 1071170662931096, guid: f68ec933f5898da4cbf0efb0a0ea6c07,
+    type: 2}
+  invader: {fileID: 0}
   spawnFrequency: 5
 --- !u!1 &1991462833
 GameObject:
@@ -855,6 +861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   bulletGO: {fileID: 1636773326158786, guid: 1541e6cdb4c541942a69d3d62dc9c36d, type: 2}
+  bulletAP: {fileID: 1136647186262032, guid: ebdcf248232460f40aee969700dc3e3f, type: 2}
 --- !u!61 &1991462837
 BoxCollider2D:
   m_ObjectHideFlags: 0
