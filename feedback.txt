@@ -1,0 +1,17 @@
+Feedback
+
+Examen (2.0/5.0)
+ * APBullet no destruye hazards.
+ * No hay GameOver cuando el hazard traspasa la posición del jugador
+ * Los hazards no hacen daño al shelter cuando lo impactan ni se destruyen.
+ * No hay manera de destruir los shelters. La implementación los desactiva, más no los destruye
+ * Hay un UnassignedReference cuando se instancia un Invader.
+ * Debris e Invader no están implementados con OOP. Son tipos de Hazard, por lo que debían heredar de Hazard.
+ * La implementación de Invader es errática. Hay un punto en el que simplemente no avanza más.
+ * Por qué hay números duros para la implementación de  la regeneración del shelter? Si yo pongo un shelter de maxResistance 1, la lógica falla.
+ * La lógica de regeneración del shelter está errada. No es incrementar la maxResistance, sino la actual hasta igualar a maxResistance. Esta implementación les da maxResistance infinita.
+
+Bonificación (0.0/0.5)
+ * No hay propuesta para la bonificación
+
+Total: 2.0 / 5.0
